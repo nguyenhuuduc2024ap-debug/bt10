@@ -1,0 +1,40 @@
+#danhsach {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+h1, h2 {
+    text-align: center;
+    color: blue;
+}
+.animal-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 300px;
+    height: 250px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.animal-card:hover {
+    background-color: #e0f7fa;
+}
+
+.animal-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#thuvienanh {
+ width: 100%;
+ display: flex; 
+ gap: 10px;
+ justify-content: space-between;
+}
+#thuvienanh img {
+    border: 10px solid burlywood;
+    border-radius: 10px;
+}
